@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base{
+    @font-face {
+        font-family: 'Bebas-Aja';
+        src: url('/src/assets/Bebas_Neue/BebasNeue-Regular.ttf') format('ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+
+/* General styles for the slider */
+#slider {
+    display: flex;
+}
+
+#slider > li {
+    display: flex;
+    justify-content: center; /* Center the items in the slide */
+    align-items: center; /* Align items vertically in the center */
+}
+
+.flex.justify-between {
+    width: 100%; /* Full width on mobile */
+    max-width: 900px; /* Optional: Set a max width for larger screens */
+}
+
+.border {
+    flex: 1; /* Allow items to grow and fill available space */
+    margin: 0 5px; /* Add some margin between items */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    #sliderContainer {
+        width: 95%; /* Increase width on mobile */
+    }
+
+    .flex.justify-between {
+        flex-direction: column; /* Stack items vertically on mobile */
+        align-items: center; /* Center items */
+    }
+
+    .border {
+        width: 80%; /* Set a width for each item on mobile */
+        margin: 10px 0; /* Add vertical margin between items */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Adjust font size for mobile */
+    }
+}
+
+/* Additional styles */
+.text-white {
+    color: white; /* Ensure text is white */
+}
+
+button {
+    margin: 0; /* Remove margin from buttons to keep them close to the slider */
+}
+
+.custom-shape-divider-top-1731731925{
+    color: #172554;
+}
+
+
