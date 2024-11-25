@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wolu Senior Hotel - SMK Negeri 8 Semarang</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="input.css">
+    <link rel="icon" href="./assets/snapan-remove.png">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body class="bg-blue-950 overflow-x-hidden">
+
+    <!-- Navbar -->
+    <header id="navbar" class="bg-transparent fixed top-0 w-full z-50 transition-all duration-300">
+        <div class="flex items-center mx-0 lg:mx-14 justify-between relative">
+            <div class="flex-shrink-0 flex mx-5 lg:mx-auto my-0 lg:my-1 items-center">
+                <!-- Logo -->
+                <img 
+                    src="./assets/logo-smk.png" 
+                    class="w-12 lg:w-16 -mt-8 object-contain" 
+                    style="height: auto;" 
+                    alt="SMK N 8 Semarang">
+                <img 
+                    src="./assets/logoLK.png" 
+                    class="w-16 lg:w-20 object-contain" 
+                    style="height: auto;" 
+                    alt="Wolu Senior Hotel">
+            </div>
+            <!-- Navbar Links -->
+            <nav id="induk-Nav" class="text-white justify-center hidden lg:flex lg:text-lg font-semibold bg-gray-200/50 px-4 py-2 rounded-full">
+                <div id="Nav">
+                    <a id="Nav" href="#Home" class="mx-6 hover:opacity-60 transition duration-300">Home</a>
+                    <a id="Nav" href="#About" class="mx-6 hover:opacity-60 transition duration-300">About</a>
+                    <a id="Nav" href="#Gallery" class="mx-6 hover:opacity-60 transition duration-300">Gallery</a>
+                    <a id="Nav" href="#Footer" class="mx-6 hover:opacity-60 transition duration-300">Find Us</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    
+    <section id="Home" class="bg-blue-950 pb-72 lg:pb-48 relative h-screen lg:pt-32">
+        <!-- Perbaikan z-index di gradient -->
+        <div class="absolute inset-0 bg-gradient-to-t from-blue-950 to-transparent lg:bg-gradient-to-r lg:from-blue-950 lg:to-transparent z-10">
+            <div class="px-16 pt-16 py-1 lg:py-80 lg:px-40">
+                <h1 class="text-blue-400 text-4xl lg:text-7xl pt-14 lg:pt-0 font-bebasAja uppercase font-semibold">Welcome to,<br/><span class="text-yellow-500">Wolu Senior Hotel</span></h1>
+                <h4 class="text-white lg:block"><span class="text-md lg:text-xl font-semibold pt-4" id="element"></span></h4>
+                <div class="mt-5 flex">
+                    <a href="https://www.youtube.com/@LKSMK8Semarang" class="text-white bg-gradient-to-r from-purple-500 via-blue-500 to-sky-500 lg:px-4 lg:py-2 px-2 py-1 rounded-full cursor-pointer mx-1 lg:mx-2">More Information</a> 
+                    <a href="https://wa.me/+6281327931089" class="text-white bg-gradient-to-r from-purple-500 via-blue-500 to-sky-500 lg:px-4 lg:py-2 px-2 py-1 rounded-full cursor-pointer mx-1 lg:mx-2">Booking Now</a> 
+                </div>
+                
+                <!-- Floating Boxes -->
+                <div class="flex flex-col lg:flex-row justify-center items-center mt-72 lg:mt-28 gap-6 lg:gap-12">
+                    <!-- Box 1 -->
+                    <div class="p-10 lg:p-8 bg-white/60 lg:bg-white/40 lg:backdrop-blur-sm backdrop-blur-0 rounded-2xl w-full lg:w-auto z-0">
+                        <div class="flex justify-center items-center p-2 lg:p-8 bg-blue-500/80 rounded-xl lg:rounded-3xl w-20 lg:w-40 mx-auto">
+                            <img src="./assets/Icons/terpercaya.png" width="50px" alt="">
+                        </div>
+                        <h1 class="text-white text-md lg:text-lg font-semibold text-center py-4">Aman & Terpercaya</h1>
+                        <p class="text-white text-center mx-auto max-w-[80%]">Kami berupaya memberikan pengalaman terbaik untuk Anda!</p>
+                    </div>
+                    <!-- Box 2 -->
+                    <div class="p-10 lg:p-8 bg-white/60 lg:bg-white/40 lg:backdrop-blur-sm backdrop-blur-0 rounded-2xl w-full lg:w-auto z-0">
+                        <div class="flex justify-center items-center p-2 lg:p-8 bg-blue-500/80 rounded-xl lg:rounded-3xl w-20 lg:w-40 mx-auto">
+                            <img src="./assets/Icons/hemat duit.png" width="50px" alt="">
+                        </div>
+                        <h1 class="text-white text-md lg:text-lg font-semibold text-center py-4">Harga Terjangkau</h1>
+                        <p class="text-white text-center mx-auto max-w-[80%]">Kami berupaya memberikan pengalaman terbaik untuk Anda!</p>
+                    </div>
+                    <!-- Box 3 -->
+                    <div class="p-10 lg:p-8 bg-white/60 lg:bg-white/40 lg:backdrop-blur-sm backdrop-blur-0 rounded-2xl w-full lg:w-auto z-0">
+                        <div class="flex justify-center items-center p-2 lg:p-8 bg-blue-500/80 rounded-xl lg:rounded-3xl w-20 lg:w-40 mx-auto">
+                            <img src="./assets/Icons/strategis.png" width="50px" alt="">
+                        </div>
+                        <h1 class="text-white text-md lg:text-lg font-semibold text-center py-4">Lokasi Strategis</h1>
+                        <p class="text-white text-center mx-auto max-w-[80%]">Kami berupaya memberikan pengalaman terbaik untuk Anda!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="relative h-screen flex justify-center items-center z-0">
+            <img src="./assets/cartoon-ada-logonya.jpg" class="rounded-xl w-[80%] lg:w-[80%] absolute mt-16 lg:-mt-20 shadow-xl" alt="">
+        </div>
+    </section>
+    
+
+    <!-- Section 1 (Home) Selesai -->
+
+   
+    <!-- Section 2 (Facility) -->
+
+    <section id="Facility" class="bg-blue-950 mt-[640px] lg:mt-0">
+        <div class="text-white lg:pt-56 mt-10">
+            <h1 class="text-4xl text-center font-semibold" data-aos="fade-up" data-aos-duration="1500">Fasilitas</h1>
+            <h3 class="text-justify lg:text-center mt-6 text-white/80 px-24 lg:px-0" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="150">Dan dibawah ini adalah beberapa layanan milik SMK negeri 8 Semarang,<br/>
+                 Semua fasilitas ini dikelola oleh Wolu Senior Hotel </h3>
+        </div>
+    
+        <!-- Slider -->
+        <div class="flex justify-center items-center pb-24 pt-5">
+            <button id="prevBtn" onclick="changeSlide(-1)" class="p-2 items-center left-52 absolute rounded-full bg-white shadow-lg text-blue-950 hover:bg-gray-200 hidden lg:flex mx-2">
+                <img class="w-8" src="./assets/Icons/arrow.png" alt="Previous">                          
+            </button>
+    
+            <div id="sliderContainer" class="w-9/12 md:w-11/12 lg:w-8/12 overflow-hidden relative" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="150">
+                <ul id="slider" class="flex transition-transform duration-700 ease-in-out">
+                    <!-- Slide 1 -->
+                    <li class="flex-none w-full p-2 flex justify-center">
+                        <div class="flex justify-between w-full md:w-10/12">
+                            <div class="border rounded-lg p-3 h-full bg-transparent text-center cursor-pointer">
+                                <img src="./assets/Daycare.jpg" alt="">
+                                <h2 class="my-2 text-base lg:text-2xl font-semibold text-white">Daycare</h2>
+                            </div>
+                            <div class="border rounded-lg p-3 h-full bg-transparent text-center cursor-pointer">
+                                <img src="./assets/Pojok Sehat.jpg" alt="">
+                                <h2 class="my-2 text-base lg:text-2xl font-semibold text-white">Pojok Sehat</h2>
+                            </div>
+                            <div class="border rounded-lg p-3 h-full bg-transparent text-center cursor-pointer">
+                                <img src="./assets/FITNES.jpg" alt="">
+                                <h2 class="my-2 text-base lg:text-2xl font-semibold text-white">Fitness Center</h2>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Slide 2 -->
+                    <li class="flex-none w-full p-2 flex justify-center">
+                        <div class="flex justify-between w-full md:w-10/12">
+                            <div class="border rounded-lg p-3 h-full bg-transparent text-center cursor-pointer">
+                                <img src="./assets/LOBI 1.jpg" alt="">
+                                <h2 class="my-2 text-base lg:text-2xl font-normal lg:font-semibold text-white">Lobby Hotel</h2>
+                            </div>
+                            <div class="border rounded-lg p-3 h-full bg-transparent text-center cursor-pointer">
+                                <img src="./assets/Kamar Hotel.jpeg.jpg" alt="">
+                                <h2 class="my-2 text-base lg:text-2xl font-normal lg:font-semibold text-white">Hotel Room</h2>
+                            </div>
+                            <div class="border rounded-lg p-3 h-full bg-transparent text-center cursor-pointer">
+                                <img src="./assets/RESTO 2.jpg" alt="">
+                                <h2 class="my-2 text-base lg:text-2xl font-normal lg:font-semibold text-white">Resto</h2>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Slide 3 -->
+                    <li class="flex-none w-full p-2 flex justify-center">
+                        <div class="flex justify-between w-full md:w-10/12">
+                            <div class="border rounded-lg p-3 h-full bg-transparent text-center cursor-pointer">
+                                <img src="./assets/R. Tindakan.jpg" alt="">
+                                <h2 class="my-2 text-base lg:text-2xl font-normal lg:font-semibold text-white">Medical Services</h2>
+                            </div>
+                            <div class="border rounded-lg p-3 h-full bg-transparent text-center cursor-pointer">
+                                <img src="./assets/Meeting Room.jpeg.jpg" alt="">
+                                <h2 class="my-2 text-base lg:text-2xl font-normal lg:font-semibold text-white">Meeting Room</h2>
+                            </div>
+                            <div class="border rounded-lg p-3 h-full bg-transparent text-center cursor-pointer">
+                                <img src="./assets/RESTO 2.jpg" alt="">
+                                <h2 class="my-2 text-base lg:text-2xl font-normal lg:font-semibold text-white">Resto</h2>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+    
+            <button id="nextBtn" onclick="changeSlide(1)" class="p-2 items-center absolute right-52 rounded-full bg-white shadow-lg text-blue-950 hover:bg-gray-200 hidden lg:flex ">
+                <img class="w-8 rotate-180" src="./assets/Icons/arrow.png" alt="Next">                          
+            </button>
+        </div>
+    </section>
+
+    <!-- Section 2 (Facility) Selesai -->
+    
+
+    <!-- Section 3 (About) -->
+
+    <section id="About" class="bg-gray-200">
+        <!-- Pembatas Section -->
+        <div class="custom-shape-divider-top-1731731925">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" fill="#172554" class="shape-fill"></path>
+            </svg>
+        </div>
+    
+        <!-- Text "Talk About" -->
+        <div class="text-black text-center lg:text-start lg:mx-28 pt-40">
+            <h3 class="lg:text-2xl" data-aos="fade-up" data-aos-duration="1500">Talk About</h3>
+            <h1 class="text-3xl lg:text-5xl font-semibold" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="150">Wolu Senior Hotel</h1>
+        </div>
+    
+        <!-- Isi Konten About -->
+        <div class="container pt-24 pb-24">
+            <div class="flex flex-wrap lg:pb-24">
+                <div class="w-full self-center px-24 lg:w-1/2 relative">
+                    <div class="w-80 lg:w-[500px]" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+                        <img src="./assets/Mask group.png" alt="">
+                    </div>
+                    <!-- Elipse 4 dipindah setelah gambar, posisikan di bawah gambar -->
+                    <div class="absolute left-0 bottom-[-80px]">
+                        <img src="./assets/Ellipse 4.png" class="opacity-70" alt="">
+                    </div>
+                </div>
+    
+                <!-- Teks -->
+                <div class="w-full self-end text-center lg:text-start px-14 lg:px-28 lg:w-1/2 mb-10 lg:mb-24" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="250">
+                    <!-- Elipse 1 -->
+                    <div class="absolute -mt-[400px] h-1/2 lg:h-full">
+                        <img src="./assets/Ellipse 3.png" class="opacity-65" alt="">
+                    </div>
+                    <h1 class="text-blue-950 text-lg lg:text-2xl font-semibold pt-10 lg:pt-0 relative">Menawarkan hunian yang nyaman dengan lokasi 
+                        yang strategis di pusat kota yang tentunya mudah untuk dijangkau.
+                    </h1>
+                    <h2 class="text-lg pt-2 text-justify lg:text-start relative">
+                        Wolu Senior Hotel, layanan dari SMK Negeri 8 Semarang, terletak di 
+                        Jl. Pandanaran II No.12, Mugassari, Kota Semarang. Hotel ini diresmikan pada 30 Desember 2020
+                         oleh Kepala Sekolah SMK Negeri 8 Semarang, Ibu Harti S.Pd., M.Kom.,
+                         sebagai bagian dari program Center of Excellence (COE) di bidang caregiver. Peresmian ini 
+                         juga dihadiri secara virtual oleh perwakilan dari Direktorat Pembinaan SMK Kemendikbud RI dan PLT Kadisdikbud Provinsi Jawa Tengah, 
+                         yang mengapresiasi pencapaian SMK Negeri 8 Semarang. Saat ini, Wolu Senior Hotel terbuka untuk umum yang ingin menikmati layanannya.
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Section 3 (About) Selesai -->
+
+     <!-- Section 4 (Gallery) -->
+
+    <section id="Gallery" class="bg-gray-200">
+        <div class="text-black">
+            <h1 class="text-yellow-600 text-4xl lg:text-6xl text-center font-bold" data-aos="fade-up" data-aos-duration="1500">Gallery</h1>
+            <h2 class="text-xl lg:text-3xl text-center py-10" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">Connect Your Entire Room</h2>
+        </div>
+        <!-- Foto - fotonya -->
+        <div class="container flex justify-center py-8" data-aos="fade-up" data-aos-duration="2500" data-aos-delay="100">
+            <img src="./assets/Component 1.png" class="w-[70%] lg:w[50%]" alt="">
+        </div>
+    </section>
+
+     <!-- Section 4 (Gallery) Selesai -->
+
+     <!-- Footer -->
+    <section id="Footer" class="relative bg-gray-200 py-20">
+    <div class="absolute inset-0 -z-9 flex">
+      <!-- Elemen gambar elips -->
+      <img src="./assets/Ellipse 1.png" class="w-[60%] lg:w-[50%] mx-auto" alt="Ellipse 1">
+      <img src="./assets/Ellipse 2.png" class="w-[60%] lg:w-[30%] mx-auto" alt="Ellipse 2">
+    </div>
+    <div class="container relative z-10">
+      <!-- Konten Footer -->
+      <div class="flex flex-wrap">
+        <div class="w-full self-start lg:w-1/3 px-24 lg:px-40">
+          <ul>
+            <li class="py-1 text-base lg:text-xl"><a href="#Home">• Home</a></li>
+            <li class="py-1 text-base lg:text-xl"><a href="#About">• About</a></li>
+            <li class="py-1 text-base lg:text-xl"><a href="#Gallery">• Gallery</a></li>
+            <li class="py-1 text-base lg:text-xl"><a href="#Footer">• Find Us</a></li>
+          </ul>
+        </div>
+        <div class="w-full self-center lg:w-1/3 px-24 py-8 lg:py-0">
+            <a href="http://www.youtube.com/@LKSMK8Semarang" class="flex space-x-4 py-2 hover:text-blue-500 hover:underline ease-in-out duration-300">
+                <div class="w-4 lg:w-6">
+                    <img src="./assets/youtube.png" alt="">
+                </div>
+                <h3 class="text-base -mt-1 lg:-mt-0">LK SMK 8 Semarang</h3>
+            </a>
+            <a href="https://www.instagram.com/wolu_senior_hotel/profilecard/?igsh=MXRqbjc3eWQwZDUxcQ==" class="flex space-x-4 py-2 hover:text-blue-500 hover:underline ease-in-out duration-300">
+                <div class="w-4 lg:w-6">
+                   <img src="./assets/social-media.png" alt="">
+               </div>
+               <h3 class="text-base -mt-1 lg:-mt-0 ">@wolu_senior_hotel</h3>
+           </a>
+            <a href="https://www.instagram.com/wolusenior.care/" class="flex space-x-4 py-2 hover:text-blue-500 hover:underline ease-in-out duration-300">
+                <div class="w-4 lg:w-6">
+                    <img src="./assets/social-media.png" alt="">
+                </div>
+                <h3 class="text-base -mt-1 lg:-mt-0">@wolusenior.care</h3>
+            </a>
+            <a href="https://www.instagram.com/layanankesehatan_smkn8smg/" class="flex space-x-4 py-2 hover:text-blue-500 hover:underline ease-in-out duration-300">
+                <div class="w-4 lg:w-6">
+                    <img src="./assets/social-media.png" alt="">
+                </div>
+                <h3 class="text-base -mt-1 lg:-mt-0">@layanankesehatan_smkn8smg</h3>
+            </a>
+        </div>
+        <div class="w-full self-end lg:w-1/3 px-24 lg:px-0 py-8 lg:py-0">
+            <h1 class="text-base lg:text-lg">Terms of Use Privacy Police.</h1>
+            <h2 class="text-base lg:text-lg">Need Help? <span class="font-semibold">Contact Us.</span></h2>
+            <h1 class="text-base lg:text-lg text-blue-950 py-8">Wolu Senior Hotel &copy; 2024</h1>
+        </div>
+      </div>
+    </div>
+    </section>
+  <!-- Footer Selesai -->
+
+  <!-- Button Back to Home -->
+  <!-- Button Back to Home -->
+  <button 
+    type="button" 
+    onclick="scrollToHome()" 
+    id="backToHomeBtn" 
+    class="fixed bottom-5 right-5 text-white px-4 py-2 rounded-full bg-transparent hidden">
+    <img src="./assets/up-arrow.png" width="50px" alt="Up Arrow">
+  </button>
+  
+<script src="/src/script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>    
+</body>
+</html>
